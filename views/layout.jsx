@@ -34,7 +34,7 @@ function Layout(props) {
           version="GA"
           startInBluemix="https://console.ng.bluemix.net/registration/?target=/catalog/services/document-conversion/"
           serviceIcon="/images/document-conversion.svg"
-          description="Divide and conquer puzzling text using the #Consensus. Thanks to IBM watson and Revanth this service utilizes crowdsourcing to empower students. " // eslint-disable-line
+          description="Divide and conquer puzzling text using the #Consensus. Thanks to IBM watson and Revanth, Karthik, and Niranjan this service utilizes crowdsourcing to empower students. " // eslint-disable-line
         />
         <div id="root">
           {props.children}
