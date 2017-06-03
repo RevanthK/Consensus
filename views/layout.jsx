@@ -5,7 +5,7 @@ function Layout(props) {
   return (
     <html lang="en">
       <head>
-        <title>Document Conversion Demo</title>
+        <title>Consensus Conversion</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,18 +23,18 @@ function Layout(props) {
       </head>
       <body>
         <Header
-          mainBreadcrumbs="Document Conversion"
+          mainBreadcrumbs="Thanks IBM"
           mainBreadcrumbsUrl="http://www.ibm.com/watson/developercloud/document-conversion.html"
         />
         <Jumbotron
-          serviceName="Document Conversion"
+          serviceName="Consensus"
           repository="https://github.com/watson-developer-cloud/document-conversion-nodejs"
           documentation="http://www.ibm.com/watson/developercloud/doc/document-conversion"
           apiReference="http://www.ibm.com/watson/developercloud/document-conversion/api/"
           version="GA"
           startInBluemix="https://console.ng.bluemix.net/registration/?target=/catalog/services/document-conversion/"
           serviceIcon="/images/document-conversion.svg"
-          description="The Document Conversion service transforms HTML, PDF, and Microsoft™ Word documents into normalized HTML, plain text, or sets of Answer units. The Answer units can be run through a utility to convert it to the Solr JSON file type needed to train the Retrieve and Rank service." // eslint-disable-line
+          description="Divide and conquer puzzling text using the #Consensus. Thanks to IBM watson and Revanth this service utilizes crowdsourcing to empower students. " // eslint-disable-line
         />
         <div id="root">
           {props.children}
