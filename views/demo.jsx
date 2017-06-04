@@ -63,18 +63,6 @@ export default React.createClass({
                         </p>
 
                         <RadioGroup name="source" className="radio-group" onChange={this.handleSource} value={this.state.source} tabStyle={true}>
-                            <Radio value="sampleHTML.html">
-                                <img src="/images/icons/html_icon.svg" alt=""/>
-                                Sample.html
-                            </Radio>
-                            <Radio value="sampleWORD.docx">
-                                <img src="/images/icons/doc_icon.svg" alt=""/>
-                                Sample.docx
-                            </Radio>
-                            <Radio value="samplePDF.pdf">
-                                <img src="/images/icons/pdf_icon.svg" alt=""/>
-                                Sample.pdf
-                            </Radio>
                             <Radio value={SOURCE_UPLOAD}>
                                 <img src="/images/icons/upload_icon.svg" alt=""/>
                                 Upload a file
